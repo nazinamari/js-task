@@ -12,7 +12,7 @@ console.log(numbers);
 
 // b) Через Array.from()
 
-const array1 = Array.from({ length: 31 }, (el, index) => index);
+const array1 = Array.from({ length: 31 }, (_, index) => index);
 
 console.log(array1);
 
